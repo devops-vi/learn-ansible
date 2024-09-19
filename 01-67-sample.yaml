@@ -1,0 +1,13 @@
+- name: Sample yaml file
+  hosts: all
+  tasks:
+   - name: print hello
+     ansible.builtin.debug:
+       msg: Hello
+
+- name: Demo of play 2
+  hosts: all
+  tasks:
+    - name: Print Oye
+      ansible.builtin.debug:
+        msg: Oye
